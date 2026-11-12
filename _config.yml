@@ -9,10 +9,9 @@ last_name: Usherwood
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Thomas Usherwood's personal website. I am a PhD candidate in the Harvard-MIT HST MEMP program, where I study single-cell biophysics.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+footer_text: > # footer.liquid already prepends "© Copyright <year> <your name>."
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
+keywords: 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -37,9 +36,9 @@ repo_trophies:
 # External service URLs for repository page
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
-external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+# external_services:
+#   github_readme_stats_url: https://github-readme-stats.vercel.app
+#   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -278,7 +277,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Usherwood]
-  first_name: [Thomas, T.]
+  first_name: [Thomas, T., "Thomas R."] # bib spells it both ways; all must be listed to be matched
 
   style: apa
   locale: en
@@ -403,7 +402,7 @@ enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (htt
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: false # enables switching between light/dark modes
+enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
@@ -459,7 +458,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Material+Icons&display=swap" # Roboto dropped: site uses IBM Plex Sans (loaded in head.liquid)
   highlightjs:
     integrity:
       css:

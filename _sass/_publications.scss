@@ -87,9 +87,12 @@
           }
         }
 
+        // jekyll-scholar wraps the site author's own name in <em>. The accent
+        // reads faster down a list than the theme's default underline.
         > em {
-          border-bottom: 1px solid;
+          color: var(--global-theme-color);
           font-style: normal;
+          font-weight: 600;
         }
 
         > span.more-authors {

@@ -2,6 +2,8 @@
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
 
+@use "variables" as v;
+
 // Checklist
 
 ul.task-list {
@@ -61,7 +63,9 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: v.$font-mono;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
 
     p {
       display: inline-block;

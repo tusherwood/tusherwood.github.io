@@ -8,6 +8,10 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  // Loaded after mdb.min.css, so this wins over its Roboto default.
+  font-family: v.$font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   h1,
   h2,

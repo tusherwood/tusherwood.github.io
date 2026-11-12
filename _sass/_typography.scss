@@ -23,6 +23,64 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Headings are set in Newsreader against a Plex Sans body. Newsreader carries
+// an optical-size axis, so large headings tighten on their own; the tracking
+// here is deliberately lighter than a sans would want.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: v.$font-display;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.2;
+}
+
+// The about-page title ships as a bold first name beside a regular last name.
+// That weight break reads as emphasis in a sans and as a mistake in a serif,
+// so the name is set at one weight.
+.post-title .font-weight-bold {
+  font-weight: 600 !important;
+}
+
+// Section headings on the about page and posts carry a rule that starts where
+// the heading ends and runs to the margin, so a long page reads as a
+// structured document rather than stacked blocks. Deliberately a direct-child
+// selector: h2.bibliography on the publications page is a right-aligned margin
+// note with a negative bottom margin, and a rule there would collide with it.
+.post article > h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 2.25rem;
+  color: var(--global-theme-color);
+
+  &::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: var(--global-divider-color);
+  }
+}
+
+// The about-page subtitle, set in mono against the serif title above it.
+.post-header .desc {
+  margin-top: 0.4rem;
+  font-family: v.$font-mono;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: var(--global-theme-color);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: v.$font-mono;
+}
+
 table {
   td,
   th {
