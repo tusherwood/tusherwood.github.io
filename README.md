@@ -98,7 +98,7 @@ Other workflows worth knowing about: `prettier.yml` (formatting check), `broken-
 
 ## Theme leftovers
 
-This started from the al-folio template, so example content is still around: `_posts/` is all theme demo posts, `_projects/1_project.md` … `9_project.md` are placeholders, `_pages/about_einstein.md` is a sample (already excluded from the build), `_data/cv.yml` has commented-out Einstein entries, and `_config.yml` still carries template defaults — `description`, `blog_name: al-folio`, `keywords`, `disqus_shortname`, and the `external_sources` medium.com/Google feeds. Also note `enable_darkmode: false`, so the light/dark toggle is off.
+This started from the al-folio template, so example content is still around: `_posts/` is all theme demo posts, `_projects/1_project.md` … `9_project.md` are placeholders, `_data/cv.yml` has commented-out Einstein entries, and `_config.yml` still carries template defaults — `description`, `blog_name: al-folio`, `keywords`, `disqus_shortname`, and the `external_sources` medium.com/Google feeds. Also note `enable_darkmode: false`, so the light/dark toggle is off.
 
 Theme documentation, kept from upstream: [CUSTOMIZE.md](CUSTOMIZE.md) (how features are configured), [INSTALL.md](INSTALL.md), [TROUBLESHOOTING.md](TROUBLESHOOTING.md), [FAQ.md](FAQ.md), [ANALYTICS.md](ANALYTICS.md), [SEO.md](SEO.md), [QUICKSTART.md](QUICKSTART.md).
 
