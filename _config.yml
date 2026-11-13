@@ -125,17 +125,18 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+# Off while the blog is unpublished (see upcoming-sections branch)
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#     categories: [external-posts]
+#     tags: [medium]
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
+#     categories: [external-posts]
+#     tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -201,6 +202,13 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  # Unfinished sections, kept out of the published site. They're being built on
+  # the upcoming-sections branch; delete a section's lines here to publish it.
+  - _pages/blog.md # blog
+  - _posts/ # blog
+  - _pages/projects.md # projects
+  - _projects/ # projects
+  - _pages/repositories.md # repositories
 keep_files:
   - CNAME
   - .nojekyll
