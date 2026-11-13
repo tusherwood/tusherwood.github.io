@@ -4,6 +4,10 @@ title: about
 permalink: /
 subtitle: "single-cell biophysics · instrumentation"
 
+hero:
+  image: rbc-strip.jpg
+  alt: "Scanning electron micrographs of red blood cells, from an echinocyte and normal biconcave discs to sickled forms"
+
 profile:
   align: right
   image: prof_pic.jpg

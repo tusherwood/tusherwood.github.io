@@ -40,6 +40,11 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Image band -->
+    {% if page.hero %}
+      {% include hero.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

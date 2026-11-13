@@ -60,3 +60,35 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Full-bleed image band on the about page (see _includes/hero.liquid).
+// The band colour matches the micrograph's background so the image can drift
+// and fade at its edges without showing a seam.
+.hero-band {
+  position: relative;
+  overflow: hidden;
+  // Break out of the content column to the full window width
+  width: 100vw;
+  margin: 2.5rem 0 1rem calc(50% - 50vw);
+  height: min(320px, 23vw);
+  background-color: #050d20;
+}
+
+// 100vw includes the scrollbar on Windows; stop the band causing a sideways scroll
+html {
+  overflow-x: clip;
+}
+
+.hero-band-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  transform: translate(-50%, 0);
+  will-change: transform;
+  // Fade the left and right edges into the band so wide screens show no hard edge
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+}
