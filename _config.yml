@@ -179,6 +179,14 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  # Repo docs and tooling files that shouldn't be published as plain text
+  - AGENTS.md
+  - ANALYTICS.md
+  - CLAUDE.md
+  - QUICKSTART.md
+  - SEO.md
+  - TROUBLESHOOTING.md
+  - requirements.txt
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
