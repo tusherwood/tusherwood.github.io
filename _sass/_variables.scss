@@ -52,7 +52,13 @@ $card-dark-color: #1a2025 !default; // dark-mode card surface
 
 // Type stacks
 $font-display: "Newsreader", Georgia, "Times New Roman", serif !default;
-$font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !default;
+$font-sans:
+  "IBM Plex Sans",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  sans-serif !default;
 $font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace !default;
 
 // Theme colors

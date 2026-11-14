@@ -46,10 +46,9 @@ cv:
         #   - Measured biological samples for a wide range of projects and applications, including T cell immunology, sickle cell disease, cancer, cell volume regulation, and gravitational sinking of algae
         #   - Currently designing a system to measure single-cell water content for a variety of biological and clinical applications, including T cell activation and sickle cell disease
 
-
       - institution: Brown University
         location: Provience, RI
-        # area: 
+        # area:
         studyType: ScB, Biomedical Engineering
         start_date: "2018"
         end_date: "2022"
@@ -98,7 +97,6 @@ cv:
           - Designed a microfluidic chip for cell-free DNA extraction from blood plasma and aneuploidy diagnosis
           - Helping to develop automated, microfluidic chip–based next generation sequencing library preparation
           - Optimized reagents and chips for on-chip capillary electrophoresis
-
 
       - company: Geisel School of Medicine at Dartmouth College
         position: Laboratory Assistant, Elliott Lab

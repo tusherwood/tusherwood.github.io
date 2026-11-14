@@ -9,9 +9,9 @@
 </div>
 <script>
   (function () {
-    var band = document.querySelector(".hero-band");
-    var image = band && band.querySelector(".hero-band-image");
-    if (!image || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var band = document.querySelector('.hero-band');
+    var image = band && band.querySelector('.hero-band-image');
+    if (!image || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     var speed = 0.2; // how far the image lags the page; 0 = no drift
     var ticking = false;
@@ -23,11 +23,11 @@
       if (rect.bottom < 0 || rect.top > viewport) return; // off screen, skip the work
       // 0 when the band is centred in the window, so the image rests where it was placed
       var offset = (viewport / 2 - (rect.top + rect.height / 2)) * speed;
-      image.style.transform = "translate(-50%, " + offset + "px)";
+      image.style.transform = 'translate(-50%, ' + offset + 'px)';
     }
 
     window.addEventListener(
-      "scroll",
+      'scroll',
       function () {
         if (!ticking) {
           ticking = true;
@@ -36,7 +36,7 @@
       },
       { passive: true }
     );
-    window.addEventListener("resize", update);
+    window.addEventListener('resize', update);
     update();
   })();
 </script>
