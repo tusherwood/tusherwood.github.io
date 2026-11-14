@@ -31,11 +31,9 @@ latest_posts:
 
 I'm Thomas Usherwood, currently a PhD student in the Harvard-MIT Health Sciences and Technology (HST) Medical Engineering and Medical Physics (MEMP) program. I'm doing my thesis research in the <a href='http://manalis-lab.mit.edu/'>Manalis lab</a> at the <a href='http://ki.mit.edu/'>Koch Institute for Integrative Cancer Research</a>.
 
-My research focuses on building biomedical instrumentation to measure the 
-biophysical properties of single cells. Specifically, I have spent my PhD 
+My research focuses on building biomedical instrumentation to measure the
+biophysical properties of single cells. Specifically, I have spent my PhD
 building devices to measure cell volume and density, with the ultimate goal of measuring single-cell water content in T cells and sickle cell disease.
-
-
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

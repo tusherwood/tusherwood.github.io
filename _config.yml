@@ -4,14 +4,14 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Thomas
-middle_name: 
+middle_name:
 last_name: Usherwood
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Thomas Usherwood's personal website. I am a PhD candidate in the Harvard-MIT HST MEMP program, where I study single-cell biophysics.
 footer_text: > # footer.liquid already prepends "© Copyright <year> <your name>."
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
-keywords: 
+keywords:
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # image in assets/img/ (or a single emoji)
 
