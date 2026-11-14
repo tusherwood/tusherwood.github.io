@@ -1,7 +1,6 @@
 cv:
   name: Thomas Usherwood
   label: PhD Candidate, Medical Engineering and Medical Physics, Harvard-MIT Health Sciences and Technology
-  email: thomasu@mit.edu
   # location: Princeton, NJ
   # image: ""
   summary: I'm a medical engineering PhD student at MIT with extensive experience in biomedical instrumentation design. I've done research in several labs developing devices for microfludic diagnostics and intraoperative monitoring and doing various mathematical modeling projects. I'm currently performing my thesis research in the Manalis lab at MIT developing instrumentation and techniques for single-cell biophysical analysis. My projects focus on measuring single-cell water content for applications in immunology and sickle cell disease.
