@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thomas-usherwood.github.io/sitemap.xml
+Sitemap: https://tusherwood.github.io/sitemap.xml
