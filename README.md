@@ -1,14 +1,8 @@
 # personal-website
 
-My academic website. Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme, deployed to GitHub Pages by GitHub Actions from `tru489/personal-website`.
+My academic website. Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme, deployed to GitHub Pages by GitHub Actions and served at <https://tusherwood.github.io>.
 
-> **Heads up — the URL config doesn't match the repo yet.** [\_config.yml](_config.yml) declares `url: https://thomas-usherwood.github.io` with an empty `baseurl`, but the repo is `tru489/personal-website`, so Pages serves it at `https://tru489.github.io/personal-website/` (neither URL responds yet — Pages likely still needs enabling on the `gh-pages` branch). Pick one and set both keys together:
->
-> - **Project site** (no rename needed): `url: https://tru489.github.io` + `baseurl: /personal-website/`
-> - **User site**: rename the repo to `tru489.github.io`, then `url: https://tru489.github.io` + `baseurl: ""`
-> - **Custom domain**: keep `baseurl: ""`, set `url:` to the domain, and add a `CNAME` file
->
-> Getting these wrong breaks every CSS and image path on the deployed site (it looks fine locally either way).
+This is a GitHub Pages _user site_, so the repo must be named exactly `tusherwood/tusherwood.github.io` and be public, with Settings → Pages → Source set to the `gh-pages` branch. [\_config.yml](_config.yml) matches that with `url: https://tusherwood.github.io` and an empty `baseurl`. If the repo or domain ever changes, update both keys together: getting them wrong breaks every CSS and image path on the deployed site, though it looks fine locally either way.
 
 ## Run it locally
 
